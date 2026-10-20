@@ -14,6 +14,7 @@ import subprocess
 import sys
 import time
 import uuid
+import zipfile
 from datetime import datetime, timezone
 
 HERE = Path(__file__).resolve().parent
@@ -149,6 +150,18 @@ def update_report(directory: Path, manifest: dict, rows: list[dict]):
     (directory / 'summary.md').write_text('\n'.join(lines), encoding='utf-8')
 
 
+def archive_run(run_dir: Path) -> Path:
+    """Create one shareable ZIP; do not include the model weights or production secrets."""
+    archive = run_dir.with_suffix('.zip')
+    temporary = archive.with_suffix('.zip.tmp')
+    with zipfile.ZipFile(temporary, mode='w', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as out:
+        for file_path in sorted(run_dir.rglob('*')):
+            if file_path.is_file():
+                out.write(file_path, arcname=str(Path(run_dir.name) / file_path.relative_to(run_dir)))
+    temporary.replace(archive)
+    return archive
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description='Universal NUC+LLM CLEAN v1/v2 independent benchmark')
     p.add_argument('--model', required=True, help='GGUF path; any supported GGUF chat model')
@@ -266,6 +279,7 @@ def main() -> int:
             print('Прервано Ctrl+C, уже завершённые кейсы сохранены. Повторите с --resume.', file=sys.stderr)
             update_csv(run_dir, rows)
             update_report(run_dir, profile, rows)
+            print(f'Частичный архив: {archive_run(run_dir)}', file=sys.stderr)
             return 130
         except OSError as exc:
             log, exit_code = f'OS ERROR: {exc}', 127
@@ -296,8 +310,10 @@ def main() -> int:
         if metrics['status'] == 'failed':
             print('Модель/движок завершились с ошибкой. Остальные кейсы не запускались; '
                   'сохраните логи и проверьте совместимость GGUF.', file=sys.stderr)
+            print(f'Архив неудачной серии: {archive_run(run_dir)}', file=sys.stderr)
             return 1
-    print(f'Готово. Отчёт: {run_dir / "summary.md"}\nМетрики: {run_dir / "metrics.csv"}', flush=True)
+    archive = archive_run(run_dir)
+    print(f'Готово. Отчёт: {run_dir / "summary.md"}\nМетрики: {run_dir / "metrics.csv"}\nАрхив для отправки: {archive}', flush=True)
     return 0
 
 
