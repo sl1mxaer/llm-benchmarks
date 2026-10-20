@@ -1,4 +1,4 @@
-# NUC+LLM — воспроизводимый протокол испытаний CPU и NVIDIA P106-100
+# LLM Benchmark — воспроизводимый протокол испытаний CPU и NVIDIA P106-100
 
 **Состояние на 19 октября 2026 года.** Версия протокола 1.0. Свод всех полученных чисел: [`LLM_COMPARATIVE_RESULTS.md`](LLM_COMPARATIVE_RESULTS.md).
 
@@ -490,7 +490,7 @@ echo "Pipeline exit: $?"
 Предлагаемая отдельная директория репозитория:
 
 ```text
-nuc-llm-benchmarks/
+llm-benchmarks/
 ├── LLM_COMPARATIVE_RESULTS.md
 └── TEST_PROTOCOL_AND_ENVIRONMENT.md
 ```
