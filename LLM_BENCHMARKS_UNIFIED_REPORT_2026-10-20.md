@@ -1,4 +1,4 @@
-# NUC+LLM — единый архив испытаний локальных LLM: CPU, P106-100 и CLEAN v1
+# LLM Benchmark — единый архив испытаний локальных LLM: CPU, P106-100 и CLEAN v1
 
 **Состояние на 20 октября 2026 года.** Объединение двух существующих отчётов без новых запусков:
 - [LLM_COMPARATIVE_RESULTS.md](LLM_COMPARATIVE_RESULTS.md) — исторические CPU и GPU quick-triage, CPU full CLEAN, `llama-bench`, persistent и P106-100.
