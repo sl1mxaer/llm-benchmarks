@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""NUC+LLM CLEAN v1/v2 independent llama-cli batch benchmark. Python stdlib only."""
+"""LLM Benchmark CLEAN v1/v2 independent llama-cli batch benchmark. Python stdlib only."""
 from __future__ import annotations
 
 import argparse
@@ -163,7 +163,7 @@ def archive_run(run_dir: Path) -> Path:
 
 
 def main() -> int:
-    p = argparse.ArgumentParser(description='Universal NUC+LLM CLEAN v1/v2 independent benchmark')
+    p = argparse.ArgumentParser(description='Universal LLM Benchmark CLEAN v1/v2 independent benchmark')
     p.add_argument('--model', required=True, help='GGUF path; any supported GGUF chat model')
     p.add_argument('--suite', choices=['v1', 'v2'], default='v2')
     p.add_argument('--backend', choices=['gpu', 'cpu'], default='gpu')
