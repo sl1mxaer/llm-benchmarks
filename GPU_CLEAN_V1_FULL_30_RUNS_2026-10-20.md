@@ -1,3 +1,5 @@
+> **Обновление 22.10.2026:** завершён отдельный замороженный **GPU CLEAN v2 (15 моделей × 15 кейсов = 225 оценок)**. [Итоговый рейтинг и выводы](GPU_CLEAN_V2_FULL_15_MODELS_2026-10-22.md) · [все полные ответы и оценки](automation/clean-v2/results/README.md) · [CSV 225 кейсов](automation/clean-v2/ALL_CASE_SCORES_NORMALIZED.csv) · [неоценённые попытки](automation/clean-v2/ATTEMPTS_NOT_SCORED.md). Настоящий документ сохраняет свою **историческую область и старые числа**; результаты v1 /80, quick-triage и llama-bench нельзя приравнивать к новому v2 /120.
+
 # GPU CLEAN v1 — полный прогон 30 кейсов на NVIDIA P106-100: Qwen3-4B, Qwen3.5-4B, Qwen3-8B
 
 **Дата испытаний:** 20 октября 2026 года.  
