@@ -1,0 +1,3 @@
+﻿model,quantization,model_sha256,attempt_type,status,reason
+YandexGPT 5 Lite 8B,IQ3_M,e8833a0254ee77747683ef9cf34c7a002bfa03b76c3d70ea91179432a11578a6,SMOKE,SMOKE_FAILED / INVALID_OUTPUT,Nonsense tokens with GPU/CPU system prompt and GPU no system prompt
+Gemma 4 12B IT,IQ3_M,def80efba2f976bb0c9709f06845b237ba3092bf4d68d5b47fd84b4ef23f4439,SMOKE,VRAM_LIMIT / NOT_TESTED,CUDA kv cache 480 MiB cudaMalloc out of memory
