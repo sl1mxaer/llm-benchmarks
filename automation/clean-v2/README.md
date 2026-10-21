@@ -1,5 +1,6 @@
-> **ВАЖНО — обновление по фактическим GPU CLEAN v2, 21.10.2026.**
-> Девять сравнимых серий (135 кейсов) выполнялись **PTY-версией** [clean_benchmark_pty.py](clean_benchmark_pty.py), а не оригинальным clean_benchmark.py ниже. Для продолжения точно той же серии см. [HANDOFF_NEW_CHAT.md](HANDOFF_NEW_CHAT.md), [PROTOCOL_AUDIT.md](PROTOCOL_AUDIT.md) и [все отчёты/CSV](results/README.md). Текст ниже сохранён как исходная документация первоначального автоматизированного раннера.
+> **ФАКТИЧЕСКОЕ СОСТОЯНИЕ — 22.10.2026 (полная серия завершена).** Завершены **15** сравнимых GPU CLEAN v2 серий / **225** независимых кейсов, в том числе 6 новых серий от 21.10.2026. Все 15 фактических GPU запусков использовали **[clean_benchmark_pty.py](clean_benchmark_pty.py)**, зафиксированную версию захвата `pty-2.0.1`; исходный `clean_benchmark.py` ниже остаётся историческим/альтернативным, для повтора frozen серии использовать PTY. [Рейтинг и подробные отчёты](results/README.md), [результаты CSV](RESULTS_INDEX.csv), [225 оценок](ALL_CASE_SCORES_NORMALIZED.csv), [аудит](PROTOCOL_AUDIT.md), [передача состояния](HANDOFF_NEW_CHAT.md), [неудачные smoke-тесты](ATTEMPTS_NOT_SCORED.md).
+
+> **Статус моделей вне рейтинга:** YandexGPT IQ3_M — `SMOKE_FAILED / INVALID_OUTPUT`; Gemma 4 12B IQ3_M — `VRAM_LIMIT / NOT_TESTED`. Эти попытки не равны нулевому баллу и не учитываются среди 15.
 
 ---
 
