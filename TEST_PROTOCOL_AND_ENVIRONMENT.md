@@ -1,3 +1,5 @@
+> **Обновление 22.10.2026:** завершён отдельный замороженный **GPU CLEAN v2 (15 моделей × 15 кейсов = 225 оценок)**. [Итоговый рейтинг и выводы](GPU_CLEAN_V2_FULL_15_MODELS_2026-10-22.md) · [все полные ответы и оценки](automation/clean-v2/results/README.md) · [CSV 225 кейсов](automation/clean-v2/ALL_CASE_SCORES_NORMALIZED.csv) · [неоценённые попытки](automation/clean-v2/ATTEMPTS_NOT_SCORED.md). Настоящий документ сохраняет свою **историческую область и старые числа**; результаты v1 /80, quick-triage и llama-bench нельзя приравнивать к новому v2 /120.
+
 # LLM Benchmark — воспроизводимый протокол испытаний CPU и NVIDIA P106-100
 
 **Состояние на 19 октября 2026 года.** Версия протокола 1.0. Свод всех полученных чисел: [`LLM_COMPARATIVE_RESULTS.md`](LLM_COMPARATIVE_RESULTS.md).
