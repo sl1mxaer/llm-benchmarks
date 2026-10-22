@@ -2,6 +2,8 @@
 
 Важный исторический источник: [первые 15 моделей](GPU_CLEAN_V2_FULL_15_MODELS_2026-10-22.md). Новые 10 прогонов добавлены без пересчёта прежних результатов.
 
+Полный первичный материал по новым десяти моделям: [самостоятельная Markdown-сводка с 150 ответами, оценками, методикой и контрольными суммами](automation/clean-v2/CHAT_SOURCE_SUMMARY_10_MODELS_2026-10-22.md). [Исходные ZIP](automation/clean-v2/source-archives/README.md) и [все покейсные CSV](automation/clean-v2/results/README.md) доступны отдельно.
+
 | № | Модель | v1/80 | extra/40 | /120 | HF | gen t/s |
 |---:|---|---:|---:|---:|---:|---:|
 | 1 | [Gemma 4 12B IT IQ3_XS](automation/clean-v2/results/10-gemma4-12b-iq3xs/report.md) | 64 | 34 | **98** | 3 | 11.58 |
