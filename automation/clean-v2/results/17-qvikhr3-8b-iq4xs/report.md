@@ -47,11 +47,11 @@
 
 ## Оригиналы данных
 
-- ZIP: `20261022-164412_QVikhr-3-8B-Instruction-IQ4_XS_eb530f630d_f1edca.zip`, SHA-256 `e9e3eb4fb3dd6f9f8a23dbedd7a7375fdc4bf9d6e410aa8f28a67bce8a6e1fdb`.
-- GPU CSV: `qvikhr-8b-full-gpu-20261022-164359.csv`.
-- [Покейсные итоговые баллы](scores.csv), [GPU summary](gpu-summary.csv).
+- Исходный ZIP: [20261022-164412_QVikhr-3-8B-Instruction-IQ4_XS_eb530f630d_f1edca.zip](../../source-archives/20261022-164412_QVikhr-3-8B-Instruction-IQ4_XS_eb530f630d_f1edca.zip), SHA-256 `e9e3eb4fb3dd6f9f8a23dbedd7a7375fdc4bf9d6e410aa8f28a67bce8a6e1fdb`.
+- Исходный GPU CSV: [gpu.csv](gpu.csv) (на сервере `qvikhr-8b-full-gpu-20261022-164359.csv`).
+- [Покейсные итоговые баллы](scores.csv), [GPU summary](gpu-summary.csv), [секундная GPU-телеметрия](gpu.csv).
 
-**Точность представления:** исходные ZIP/CSV были загружены пользователем в чат; в этот commit внесены ручные итоговые оценки из диалога и агрегированные GPU метрики. Полные RAW, REFERENCE, RESPONSE и ежесекундный CSV содержатся в оригинальных файлах, а не в представленном сокращённом Markdown. Разбивки четырёх критериев по 0–2 балла ранее не записывались и намеренно оставлены пустыми — чисел не выдумываем.
+**Точность представления:** оригинальный бинарный ZIP и исходный GPU CSV теперь опубликованы в GitHub. Полные RAW, REFERENCE и RESPONSE дублируются ниже для удобства проверки. В исходных ZIP сохранены run.log, manifest.json, metrics.csv и остальные служебные данные. Покомпонентные оценки 0–2 не были записаны отдельно; отсутствующие значения не выдуманы.
 
 ## Полный покейсовый аудит: RAW / REFERENCE / RESPONSE
 

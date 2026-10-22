@@ -47,11 +47,11 @@
 
 ## Оригиналы данных
 
-- ZIP: `20261022-173310_saiga_yandexgpt_8b.zip`, SHA-256 `3c46c6bf422ffdf22de3b2f38ecb107190e7e397f0c32d913f2f9ba2aa5f6a5f`.
-- GPU CSV: `saiga-yandexgpt-8b-full-gpu-20261022-173255.csv`.
-- [Покейсные итоговые баллы](scores.csv), [GPU summary](gpu-summary.csv).
+- Исходный ZIP: [20261022-173310_saiga_yandexgpt_8b.zip](../../source-archives/20261022-173310_saiga_yandexgpt_8b.zip), SHA-256 `3c46c6bf422ffdf22de3b2f38ecb107190e7e397f0c32d913f2f9ba2aa5f6a5f`.
+- Исходный GPU CSV: [gpu.csv](gpu.csv) (на сервере `saiga-yandexgpt-8b-full-gpu-20261022-173255.csv`).
+- [Покейсные итоговые баллы](scores.csv), [GPU summary](gpu-summary.csv), [секундная GPU-телеметрия](gpu.csv).
 
-**Точность представления:** исходные ZIP/CSV были загружены пользователем в чат; в этот commit внесены ручные итоговые оценки из диалога и агрегированные GPU метрики. Полные RAW, REFERENCE, RESPONSE и ежесекундный CSV содержатся в оригинальных файлах, а не в представленном сокращённом Markdown. Разбивки четырёх критериев по 0–2 балла ранее не записывались и намеренно оставлены пустыми — чисел не выдумываем.
+**Точность представления:** оригинальный бинарный ZIP и исходный GPU CSV теперь опубликованы в GitHub. Полные RAW, REFERENCE и RESPONSE дублируются ниже для удобства проверки. В исходных ZIP сохранены run.log, manifest.json, metrics.csv и остальные служебные данные. Покомпонентные оценки 0–2 не были записаны отдельно; отсутствующие значения не выдуманы.
 
 ## Полный покейсовый аудит: RAW / REFERENCE / RESPONSE
 

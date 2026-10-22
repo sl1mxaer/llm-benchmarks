@@ -47,11 +47,11 @@
 
 ## Оригиналы данных
 
-- ZIP: `20261022-170739_RuadaptQwen3-4B-Instruct-Q4_K_M_1abbf99e0e_0e9b6b.zip`, SHA-256 `9a65bf11b8c00cf2c64a8eeb919a14df70eeaba7807cc0ffbf37265daf817e17`.
-- GPU CSV: `ruadapt-4b-full-gpu-20261022-170731.csv`.
-- [Покейсные итоговые баллы](scores.csv), [GPU summary](gpu-summary.csv).
+- Исходный ZIP: [20261022-170739_RuadaptQwen3-4B-Instruct-Q4_K_M_1abbf99e0e_0e9b6b.zip](../../source-archives/20261022-170739_RuadaptQwen3-4B-Instruct-Q4_K_M_1abbf99e0e_0e9b6b.zip), SHA-256 `9a65bf11b8c00cf2c64a8eeb919a14df70eeaba7807cc0ffbf37265daf817e17`.
+- Исходный GPU CSV: [gpu.csv](gpu.csv) (на сервере `ruadapt-4b-full-gpu-20261022-170731.csv`).
+- [Покейсные итоговые баллы](scores.csv), [GPU summary](gpu-summary.csv), [секундная GPU-телеметрия](gpu.csv).
 
-**Точность представления:** исходные ZIP/CSV были загружены пользователем в чат; в этот commit внесены ручные итоговые оценки из диалога и агрегированные GPU метрики. Полные RAW, REFERENCE, RESPONSE и ежесекундный CSV содержатся в оригинальных файлах, а не в представленном сокращённом Markdown. Разбивки четырёх критериев по 0–2 балла ранее не записывались и намеренно оставлены пустыми — чисел не выдумываем.
+**Точность представления:** оригинальный бинарный ZIP и исходный GPU CSV теперь опубликованы в GitHub. Полные RAW, REFERENCE и RESPONSE дублируются ниже для удобства проверки. В исходных ZIP сохранены run.log, manifest.json, metrics.csv и остальные служебные данные. Покомпонентные оценки 0–2 не были записаны отдельно; отсутствующие значения не выдуманы.
 
 ## Полный покейсовый аудит: RAW / REFERENCE / RESPONSE
 
