@@ -1,0 +1,9 @@
+metric,value,unit
+prompt_mean,343.69,tokens/s
+generation_mean,22.37,tokens/s
+wall_sum,176.99,seconds
+vram_peak,5111,MiB
+temp_peak,60,degC
+power_draw_peak,136.66,W
+power_limit,120,W
+cases_ok,15,count

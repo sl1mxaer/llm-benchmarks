@@ -33,3 +33,19 @@
 - **DeepSeek R1 0/120** — пройденный технический прогон с 15 непригодными для CLEAN ответами, не путать с отсутствующим результатом. У остальных моделей `status=ok` не гарантирует содержательно правильного ответа.
 
 Результаты исторического CPU/GPU quick-triage, полных CLEAN v1 /80 и llama-bench от 19–20 октября **не объединены** с новым CLEAN v2 /120. Версии исходных тестов и системного промпта не менялись.
+
+
+## Добавлены модели 16–25 (22.10.2026)
+
+- [RuadaptQwen3-8B-Hybrid Q4_K_M](16-ruadapt8b-hybrid/report.md) — **79/120**, HF 7, 21.71 ток/с; [покейсные баллы](16-ruadapt8b-hybrid/scores.csv), [GPU summary](16-ruadapt8b-hybrid/gpu-summary.csv)
+- [QVikhr-3-8B-Instruction IQ4_XS](17-qvikhr3-8b-iq4xs/report.md) — **92/120**, HF 2, 25.01 ток/с; [покейсные баллы](17-qvikhr3-8b-iq4xs/scores.csv), [GPU summary](17-qvikhr3-8b-iq4xs/gpu-summary.csv)
+- [RuadaptQwen3-4B-Instruct Q4_K_M](18-ruadapt4b-instruct/report.md) — **73/120**, HF 5, 33.24 ток/с; [покейсные баллы](18-ruadapt4b-instruct/scores.csv), [GPU summary](18-ruadapt4b-instruct/gpu-summary.csv)
+- [Saiga YandexGPT 8B Q4_K_M](19-saiga-yandexgpt8b/report.md) — **67/120**, HF 7, 21.88 ток/с; [покейсные баллы](19-saiga-yandexgpt8b/scores.csv), [GPU summary](19-saiga-yandexgpt8b/gpu-summary.csv)
+- [GigaChat 3.1 Lightning 10B/A1.8B IQ3_M](20-gigachat31-lightning/report.md) — **76/120**, HF 4, 34.67 ток/с; [покейсные баллы](20-gigachat31-lightning/scores.csv), [GPU summary](20-gigachat31-lightning/gpu-summary.csv)
+- [A-vibe 8B Q4_K_M](21-avibe8b/report.md) — **80/120**, HF 6, 22.37 ток/с; [покейсные баллы](21-avibe8b/scores.csv), [GPU summary](21-avibe8b/gpu-summary.csv)
+- [QVikhr-3-4B-Instruction Q6_K](22-qvikhr3-4b-q6k/report.md) — **76/120**, HF 4, 26.23 ток/с; [покейсные баллы](22-qvikhr3-4b-q6k/scores.csv), [GPU summary](22-qvikhr3-4b-q6k/gpu-summary.csv)
+- [Qwen3-4B-Instruct-2507 Q5_K_M](23-qwen3-4b-2507-q5km/report.md) — **73/120**, HF 6, 29.84 ток/с; [покейсные баллы](23-qwen3-4b-2507-q5km/scores.csv), [GPU summary](23-qwen3-4b-2507-q5km/gpu-summary.csv)
+- [Cotype Nano Q8_0](24-cotype-nano-q8/report.md) — **36/120**, HF 12, 54.4 ток/с; [покейсные баллы](24-cotype-nano-q8/scores.csv), [GPU summary](24-cotype-nano-q8/gpu-summary.csv)
+- [Aya Expanse 8B Q4_K_M](25-aya-expanse8b/report.md) — **61/120**, HF 8, 19.44 ток/с; [покейсные баллы](25-aya-expanse8b/scores.csv), [GPU summary](25-aya-expanse8b/gpu-summary.csv)
+
+Общий рейтинг 25 моделей: [GPU_CLEAN_V2_FULL_25_MODELS_2026-10-22.md](../../../GPU_CLEAN_V2_FULL_25_MODELS_2026-10-22.md). Новые файлы не подменяют оригинальные ZIP/CSV, их контрольные суммы перечислены в [источниках](../NEW_RUN_SOURCE_ARCHIVES_2026-10-22.csv).

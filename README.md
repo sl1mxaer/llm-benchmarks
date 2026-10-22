@@ -4,12 +4,13 @@
 
 ## Главное: завершённый GPU CLEAN v2
 
-**15 моделей/квантовок, 225 отдельных кейсов, единый frozen протокол, 15× ручной рейтинг /120.**
+**25 моделей/квантовок, 375 отдельных кейсов, единый frozen протокол, 15× ручной рейтинг /120.**
 
-- **[Итоговый отчёт, рейтинг и аппаратные итоги](GPU_CLEAN_V2_FULL_15_MODELS_2026-10-22.md)**
-- [Обзор всех 15 моделей и ссылки на 15 подробных отчётов](automation/clean-v2/results/README.md)
-- [Сводный индекс CSV — 15 моделей, SHA-256 и производительность](automation/clean-v2/RESULTS_INDEX.csv)
-- [Покейсные оценки CSV — все 225 записей](automation/clean-v2/ALL_CASE_SCORES_NORMALIZED.csv)
+- **[Актуальный рейтинг и отчёт 25 моделей](GPU_CLEAN_V2_FULL_25_MODELS_2026-10-22.md)**
+- [Историческая таблица первых 15 моделей](GPU_CLEAN_V2_FULL_15_MODELS_2026-10-22.md)
+- [Обзор всех 15 моделей и ссылки на 25 подробных отчётов](automation/clean-v2/results/README.md)
+- [Сводный индекс CSV — 25 моделей, SHA-256 и производительность](automation/clean-v2/RESULTS_INDEX.csv)
+- [Покейсные оценки CSV — все 375 записей](automation/clean-v2/ALL_CASE_SCORES_NORMALIZED.csv)
 - [Аудит неизменности CLI, промптов, кейсов и раннера](automation/clean-v2/PROTOCOL_AUDIT.md)
 - [План воспроизведения / передача состояния](automation/clean-v2/HANDOFF_NEW_CHAT.md)
 - [Проверенные неудачные попытки без баллов: YandexGPT IQ3_M и Gemma IQ3_M](automation/clean-v2/ATTEMPTS_NOT_SCORED.md)
