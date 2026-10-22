@@ -41,3 +41,7 @@
 P106-100 6 GiB (PL 120 Вт), i5-3470, 16 GiB DDR3. llama.cpp b11338-dcd387a41, PTY runner pty-2.0.1, context 4096, `-ngl 99 --fit off`, 15 отдельных процессов/модель, temp 0.7, без seed. Исторический промпт/RAW не меняли. Однократное измерение не оценивает стабильность. Hard failures важнее близости суммарных баллов; ни у одной модели нет 0 HF. `power.draw` может на мгновение превышать PL, не означая изменения лимита. `heuristic:truncated_prompt` не всегда означает усечение ответа.
 
 [Результаты и оценки](automation/clean-v2/results/README.md) · [индекс 25 моделей](automation/clean-v2/RESULTS_INDEX.csv) · [375 кейсов](automation/clean-v2/ALL_CASE_SCORES_NORMALIZED.csv) · [контрольные суммы ZIP](automation/clean-v2/NEW_RUN_SOURCE_ARCHIVES_2026-10-22.csv).
+
+### Метрики каждого нового кейса
+
+[150 записей с wall-clock, prompt t/s и generation t/s](automation/clean-v2/NEW_CASE_METRICS_10_MODELS.csv), извлечённых из исходных ZIP. Для каждого кейса дополнительно доступен ответ внутри индивидуального `report.md`.
