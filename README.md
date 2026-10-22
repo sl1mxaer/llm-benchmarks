@@ -5,6 +5,7 @@
 ## Главные документы
 
 - **[Итоговый рейтинг всех 25 моделей / 375 ответов](GPU_CLEAN_V2_FULL_25_MODELS_2026-10-22.md)** — баллы, hard failures, скорость и интерпретация.
+- **[Первичный подробный разбор 10 дополнительных моделей](automation/clean-v2/CHAT_SOURCE_SUMMARY_10_MODELS_2026-10-22.md)** — 150 ответов, RAW/эталон, ручная оценка, SHA-256 и перечень исходных ZIP/CSV.
 - **[25 подробных отчётов](automation/clean-v2/results/README.md)** — для каждого кейса RAW / REFERENCE / RESPONSE, замечания и GPU.
 - **[10 исходных ZIP последних прогонов — бинарные файлы](automation/clean-v2/source-archives/README.md)** и [SHA-256](automation/clean-v2/source-archives/SHA256SUMS.txt).
 - [Индекс 25 моделей, GGUF SHA и пути](automation/clean-v2/RESULTS_INDEX.csv) · [Все 375 покейсных баллов](automation/clean-v2/ALL_CASE_SCORES_NORMALIZED.csv) · [150 измерений производительности новых моделей](automation/clean-v2/NEW_CASE_METRICS_10_MODELS.csv).
