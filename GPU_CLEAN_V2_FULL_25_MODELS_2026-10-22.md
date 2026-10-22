@@ -45,3 +45,7 @@ P106-100 6 GiB (PL 120 Вт), i5-3470, 16 GiB DDR3. llama.cpp b11338-dcd387a41, 
 ### Метрики каждого нового кейса
 
 [150 записей с wall-clock, prompt t/s и generation t/s](automation/clean-v2/NEW_CASE_METRICS_10_MODELS.csv), извлечённых из исходных ZIP. Для каждого кейса дополнительно доступен ответ внутри индивидуального `report.md`.
+
+### Подтверждение исходных данных
+
+Оригинальные секундные GPU CSV для всех новых десяти прогонов опубликованы в индивидуальных папках `results/16-…/gpu.csv` — `results/25-…/gpu.csv`. [Контрольные суммы](automation/clean-v2/ORIGINAL_GPU_SHA256SUMS.txt). Исходные ZIP с `run.log` пока только в оригинальных пользовательских вложениях; [описание статуса](automation/clean-v2/SOURCE_ARCHIVES_STATUS.md).

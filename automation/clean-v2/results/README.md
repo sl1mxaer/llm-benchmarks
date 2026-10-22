@@ -49,3 +49,7 @@
 - [Aya Expanse 8B Q4_K_M](25-aya-expanse8b/report.md) — **61/120**, HF 8, 19.44 ток/с; [покейсные баллы](25-aya-expanse8b/scores.csv), [GPU summary](25-aya-expanse8b/gpu-summary.csv)
 
 Общий рейтинг 25 моделей: [GPU_CLEAN_V2_FULL_25_MODELS_2026-10-22.md](../../../GPU_CLEAN_V2_FULL_25_MODELS_2026-10-22.md). Новые файлы не подменяют оригинальные ZIP/CSV, их контрольные суммы перечислены в [источниках](../NEW_RUN_SOURCE_ARCHIVES_2026-10-22.csv).
+
+### Сырые замеры GPU новых моделей
+
+Для каждой модели 16–25 теперь доступен **`gpu.csv` с оригинальными секундными измерениями** (без потерь). `gpu-summary.csv` содержит только агрегаты. Имена исходных ZIP и контрольные суммы — в [реестре](../NEW_RUN_SOURCE_ARCHIVES_2026-10-22.csv), подробности хранения — в [SOURCE_ARCHIVES_STATUS.md](../SOURCE_ARCHIVES_STATUS.md).

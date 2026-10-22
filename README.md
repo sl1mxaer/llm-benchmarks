@@ -34,3 +34,7 @@
 - [Полные RAW/REFERENCE/RESPONSE и комментарии к 150 новым ответам](automation/clean-v2/results/README.md)
 - [Покейсная скорость и wall-time 150 новых тестов](automation/clean-v2/NEW_CASE_METRICS_10_MODELS.csv)
 - [Архивные SHA-256 оригиналов 10 ZIP](automation/clean-v2/NEW_RUN_SOURCE_ARCHIVES_2026-10-22.csv)
+
+### Источники новых тестов
+
+[Какие оригиналы уже на GitHub, а какие в исходном пакете](automation/clean-v2/SOURCE_ARCHIVES_STATUS.md) · [SHA-256 полных GPU CSV](automation/clean-v2/ORIGINAL_GPU_SHA256SUMS.txt). Секундные CSV моделей 16–25 опубликованы как `gpu.csv` внутри каталога соответствующей модели.
