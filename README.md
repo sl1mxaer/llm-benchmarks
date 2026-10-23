@@ -1,4 +1,4 @@
-# NUC+LLM — локальные тесты LLM (CLEAN v2)
+# LLM — локальные тесты LLM (CLEAN v2)
 
 Актуальная дата серии: **22 октября 2026 года**. Репозиторий содержит измерения на i5-3470 / 16 GiB DDR3 / NVIDIA Colorful P106-100 6 GiB с Power Limit 120 Вт, а также единый benchmark RAW→CLEAN.
 
